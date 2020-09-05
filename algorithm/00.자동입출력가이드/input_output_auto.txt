@@ -1,0 +1,4 @@
+input output 자동으로 저장되게 해주는 방법 올린 깃허브 링크
+
+https://github.com/jspw/VS-Code-Config
+https://github.com/jspw/VS-Code-Config/blob/master/readme(windows).md
