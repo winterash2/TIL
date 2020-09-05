@@ -8,21 +8,27 @@
       "command": "",
       "args": [
         "g++",
+        "-g",
         "${relativeFile}",
         "-o",
-        "test",
+        "${fileBasenameNoExtension}.out",
         "&&",
-        "./test",
+        "clear",
+        "&&",
+        "timeout",
+        "10",
+        "/usr/bin/time",
+        "-v",
+        "--output",
+        "sys.txt",
+        "./${fileBasenameNoExtension}.out",
         "<",
         "input.txt",
         ">",
         "output.txt",
         "&&",
         "rm",
-        "test.exe",
-        // // "&&",
-        // // "test.out"
-
+        "*out"
       ],
       "group": {
         "kind": "build",
