@@ -17,9 +17,9 @@
         "input.txt",
         ">",
         "output.txt",
-        "&&",
-        "rm",
-        "test.exe",
+        // "&&",
+        // "rm",
+        // "test.exe",
         // // "&&",
         // // "test.out"
 
