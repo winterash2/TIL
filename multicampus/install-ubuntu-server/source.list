@@ -1,0 +1,11 @@
+deb http://ftp.daumkakao.com/ubuntu/ bionic main
+deb http://kr.archive.ubuntu.com/ubuntu/ bionic main
+
+deb http://ftp.daumkakao.com/ubuntu/ bionic universe
+deb http://kr.archive.ubuntu.com/ubuntu/ bionic universe
+
+deb http://ftp.daumkakao.com/ubuntu/ bionic multiverse
+deb http://kr.archive.ubuntu.com/ubuntu/ bionic multiverse
+
+deb http://ftp.daumkakao.com/ubuntu/ bionic restricted
+deb http://kr.archive.ubuntu.com/ubuntu/ bionic restricted
