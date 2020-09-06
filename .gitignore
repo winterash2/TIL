@@ -1,3 +1,1 @@
-.algotithm/input.txt
-.algotithm/output.txt
-.algotithm/test.ext
+*.test
