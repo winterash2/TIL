@@ -2,8 +2,15 @@
 
 using namespace std;
 
+// void print(int * arr){
+//   for(int i = 0; i < len(arr); )
+// }
+
 void accumlate(int N, int *arr, int *result, int present){
-  if()
+  if(present >= N){
+    return ;
+  }
+  
 }
 
 int main(void)
@@ -11,13 +18,10 @@ int main(void)
   int N;
   cin >> N;
   int arr[N];
-  int result[N+2];
+  int result[N+2] = {0,};
 
   for (int i = 0; i < N; i++)
     cin >> arr[i];
   
-  result[0] = arr[0];
-  result[1] = arr[0] > arr[1] ? arr[0] : arr[1];
-
   return 0;
 }
