@@ -15,7 +15,7 @@ def solution(jobs):
             start = now
             now += current[0]
             answer += (now-current[1])
-            i +=1
+            i += 1
         else:
             now += 1
     return int(answer / len(jobs))
